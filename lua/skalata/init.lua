@@ -1,6 +1,5 @@
 require("skalata.remap")
-require("skalata.set")
-require("skalata.lazy_init")
+require("skalata.set") require("skalata.lazy_init")
 
 local augroup = vim.api.nvim_create_augroup
 local skalata_group = augroup('SkalataGroup', {})
@@ -55,3 +54,5 @@ autocmd('LspAttach', {
 vim.g.netrw_browse_split = 0
 vim.g.netrw_banner = 0
 vim.g.netrw_winsize = 25
+
+vim.cmd.colorscheme("dracula")
