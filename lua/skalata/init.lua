@@ -1,5 +1,6 @@
 require("skalata.remap")
-require("skalata.set") require("skalata.lazy_init")
+require("skalata.set")
+require("skalata.lazy_init")
 
 local augroup = vim.api.nvim_create_augroup
 local skalata_group = augroup('SkalataGroup', {})

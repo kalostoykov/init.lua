@@ -1,5 +1,5 @@
 vim.g.mapleader = " "
-vim.keymap.set("n", "<leader>pv", vim.cmd.Lexplore)
+vim.keymap.set("n", "<leader>n", vim.cmd.Neotree)
 vim.keymap.set("n", "<Leader>b", ":ls<CR>:b<Space>")
 
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
